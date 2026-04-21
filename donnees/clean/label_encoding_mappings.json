@@ -1,0 +1,102 @@
+{
+  "Luminosité": {
+    "0": "Plein jour",
+    "1": "Crépuscule / aube",
+    "2": "Nuit avec éclairage public allumé",
+    "3": "Nuit avec éclairage public non allumé",
+    "4": "Nuit sans éclairage public"
+  },
+  "État de la surface": {
+    "0": "Normale",
+    "1": "Mouillée",
+    "2": "Flaques",
+    "3": "Inondée",
+    "4": "Enneigée",
+    "5": "Boue",
+    "6": "Verglacée",
+    "7": "Corps gras / huile",
+    "8": "Autre",
+    "9": "Inconnu"
+  },
+  "Agglomération": {
+    "0": "En agglomération",
+    "1": "Hors agglomération"
+  },
+  "Météo (conditions atmos.)": {
+    "0": "Autre",
+    "1": "Brouillard / fumée",
+    "2": "Neige / grêle",
+    "3": "Normale",
+    "4": "Pluie forte",
+    "5": "Pluie légère",
+    "6": "Temps couvert",
+    "7": "Temps éblouissant",
+    "8": "Vent fort / tempête",
+    "9": "Inconnu"
+  },
+  "Type de collision": {
+    "0": "2 véhicules - frontale",
+    "1": "2 véhicules - par le côté",
+    "2": "2 véhicules - par l’arrière",
+    "3": "3 véhicules et + - collisions multiples",
+    "4": "3 véhicules et + - en chaîne",
+    "5": "Autre collision",
+    "6": "Inconnu",
+    "7": "Sans collision"
+  },
+  "Catégorie de route": {
+    "0": "Autoroute",
+    "1": "Autre",
+    "2": "Hors réseau public",
+    "3": "Parking ouvert à la circulation",
+    "4": "Route de métropole urbaine",
+    "5": "Route départementale",
+    "6": "Route nationale",
+    "7": "Voie communale"
+  },
+  "Régime de circulation": {
+    "0": "Bidirectionnelle",
+    "1": "Chaussées séparées",
+    "2": "Inconnu",
+    "3": "Sens unique",
+    "4": "Voies d’affectation variable"
+  },
+  "Infrastructure": {
+    "0": "Aucun",
+    "1": "Autres",
+    "2": "Bretelle d’échangeur / raccordement",
+    "3": "Carrefour aménagé",
+    "4": "Chantier",
+    "5": "Inconnu",
+    "6": "Pont / autopont",
+    "7": "Souterrain / tunnel",
+    "8": "Voie ferrée",
+    "9": "Zone de péage",
+    "10": "Zone piétonne"
+  },
+  "Situation de l’accident": {
+    "0": "Autres",
+    "1": "Sur accotement",
+    "2": "Sur autre voie spéciale",
+    "3": "Sur bande d’arrêt d’urgence",
+    "4": "Sur chaussée",
+    "5": "Sur piste cyclable",
+    "6": "Sur trottoir"
+  },
+  "Région": {
+    "0": "Auvergne-Rhône-Alpes",
+    "1": "Bourgogne-Franche-Comté",
+    "2": "Bretagne",
+    "3": "Centre-Val de Loire",
+    "4": "Corse",
+    "5": "Grand Est",
+    "6": "Hauts-de-France",
+    "7": "Normandie",
+    "8": "Nouvelle-Aquitaine",
+    "9": "Occitanie",
+    "10": "Outre-mer",
+    "11": "PACA",
+    "12": "Pays de la Loire",
+    "13": "Île-de-France"
+  }
+}
