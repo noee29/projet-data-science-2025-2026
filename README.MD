@@ -52,7 +52,7 @@ donnees/
 
 ## Instructions par étudiant
 
-### Issam ou Noé — Régression Logistique
+### Issam - Régression Logistique
 - **Fichiers à utiliser** : `X_oh_encoding.csv` + `y_gravite.csv`
 - `X_oh_encoding` contient 81 colonnes après One-Hot Encoding
 - ⚠️ Appliquer `StandardScaler` **après** le train/test split, jamais avant
@@ -68,7 +68,7 @@ X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 ```
 
-### Issam ou Noé — Random Forest
+### Noé — Random Forest
 - **Fichiers à utiliser** : `X_lab_encoded.csv` + `y_gravite.csv`
 - `X_lab_encoded` contient 12 colonnes en Label Encoding
 - Pas de standardisation nécessaire
@@ -85,7 +85,7 @@ X_test = scaler.transform(X_test)
 
 - **Doublons** : conservés intentionnellement — deux accidents peuvent avoir les mêmes caractéristiques sans être le même événement
 - **Département → Région** : regroupement en 14 modalités pour éviter l'explosion dimensionnelle en OHE (107 → 14)
-- **Vitesse max autorisée** : valeurs > 130 km/h considérées comme erreurs de saisie, remplacées par la médiane (50 km/h)
+- **Vitesse max autorisée** : valeurs > 130 km/h considérées comme erreurs de saisie, passées en NaN — imputation par la médiane déléguée au pipeline de chaque binôme après le train/test split
 - **"Non renseigné"** : remplacé par "Inconnu" dans toutes les colonnes catégorielles — l'absence d'information est conservée comme signal potentiel
 - **#VALEURMULTI** : artifact du système source, traité comme valeur manquante et imputé par la médiane
 
